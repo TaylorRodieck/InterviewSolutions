@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>InterviewSolutions</Title>
+    <Description>A simple class containing methods for completing specific Interview Problems such as 'FizzBuzz'.</Description>
+    <Copyright>2023</Copyright>
+  </PropertyGroup>
+
+</Project>
