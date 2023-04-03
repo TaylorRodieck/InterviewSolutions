@@ -1,6 +1,6 @@
 ﻿namespace InterviewSolutions
 {
-    public class Class1
+    public class Problems
     {
         public static void FizzBuzz(int start, int end)
         {
@@ -23,6 +23,14 @@
                     Console.WriteLine(i);
                 }
             }
+        }
+
+        public static void ReverseString(string str)
+        {
+            char[] charArray = str.ToCharArray();
+            Array.Reverse(charArray);
+            string result =  new string(charArray);
+            Console.WriteLine(result);
         }
     }
 }
