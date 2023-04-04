@@ -10,9 +10,9 @@
     <Copyright>2023</Copyright>
     <PackageProjectUrl>https://github.com/TaylorRodieck/InterviewSolutions</PackageProjectUrl>
     <PackageReleaseNotes>Added ReverseString method.</PackageReleaseNotes>
-    <AssemblyVersion>1.0.1.1</AssemblyVersion>
-    <FileVersion>1.0.1.1</FileVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.5</AssemblyVersion>
+    <FileVersion>1.0.1.5</FileVersion>
+    <Version>1.0.155</Version>
   </PropertyGroup>
 
 </Project>
