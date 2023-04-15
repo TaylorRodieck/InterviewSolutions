@@ -122,4 +122,26 @@
             }
         }
     }
+
+    public class Fibonacci
+    {
+        public static List<int> FibonacciMethod(int ResultLength)
+        {
+            List<int> resultList = new List<int>();
+
+            int secondNum = 1;
+            int fibSum = 0;
+            resultList.Add(0);
+            resultList.Add(secondNum);
+
+            for (int startNum = 0; startNum < ResultLength; startNum++)
+            {
+                fibSum = startNum + secondNum;
+                resultList.Add(fibSum);
+                startNum = secondNum;
+                secondNum = fibSum;
+            }
+            return resultList;
+        }
+    }
 }
