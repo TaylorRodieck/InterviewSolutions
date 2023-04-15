@@ -10,7 +10,7 @@ A collection of common interview questions implemented in C#.
 You can install this package using NuGet package manager.
 
 ```
-PM> Install-Package InterviewSolutions
+nuget install InterviewSolutions
 ```
 
 ## Usage
