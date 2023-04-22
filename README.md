@@ -100,7 +100,7 @@ The FibonacciMethod method takes an integer argument `ResultLength` and returns 
 Usage:
 
 ```
-List<int> fibList = InterviewSolutions.Fibonacci.FibonacciMethod(10);
+List<int> fibList = InterviewSolutions.Problems.FibonacciMethod(10);
 foreach (int num in fibList)
 {
     Console.WriteLine(num);
